@@ -7,7 +7,7 @@ int set_num_of_wheels()
 int set_num_of_passengers()
 boolean has_gas()
 }
-~~~
+~~~kotlin
 - Explain how can you use the pattern to create car and plane class?
 - Use a different design pattern for this solution.
 
