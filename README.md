@@ -9,8 +9,8 @@ anagrams but ‘eat’ and ‘tar’ are not
     -Write Unit test of anagram function.
 
 #### Write a function for checking two string are anagram.
+~~~java
 package anagrams;
-
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -41,3 +41,4 @@ public class Anagrams {
         return Arrays.equals(charArrayFromString1, charArrayFromString2);
     }
 }
+~~~
