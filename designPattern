@@ -1,7 +1,7 @@
 # Bongo's Android Developer Position Assigment 
 ## Problem 
 Explain the design pattern used in following:
-~~~
+~~~kotlin
 interface common.Vehicle {
 int set_num_of_wheels()
 int set_num_of_passengers()
@@ -39,10 +39,10 @@ class Car constructor(
     }
 
 }
-~~~
+~~~kotlin
 
 - Plane class
-~~~
+~~~kotlin
 
 class Plane constructor(
     private val numberOfWheel: Int,
@@ -63,7 +63,7 @@ class Plane constructor(
     }
 
 }
-~~~
+~~~kotlin
 #### Specify the interface design pattern
 
 ~~~kotlin
@@ -73,7 +73,7 @@ fun main() {
     vehicle = Plane(4, 20, true)
     println("Plane has gas: ${vehicle.hasGas()}")
 }
-~~~
+~~~kotlin
 ### In factory design pattern
 - Create a factory 
 ~~~kotlin
@@ -87,7 +87,7 @@ class VehicleFactory {
         return Plane(numberOfWheel, numberOfPassenger, hasGas)
     }
 }
-~~~
+~~~kotlin
 - Run the factory
 ~~~kotlin 
 
@@ -97,4 +97,4 @@ fun main() {
     println("Car Passenger: ${car.setNumOfPassenger()}")
     println("Plane Passenger: ${plane.setNumOfPassenger()}")
 }
-~~~
+~~~kotlin
